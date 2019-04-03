@@ -1,0 +1,9 @@
+[
+    { "keys": ["tab"], "command": "indent", "context":
+        [
+            { "key": "text", "operator": "regex_contains", "operand": "." }
+        ]
+    },   
+    { "keys": ["shift+tab"], "command": "unindent"
+    },
+]
